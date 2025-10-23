@@ -9,14 +9,14 @@
 <h3 align="center">🤖 AI-Powered Business Name Generator</h3>
 
 <div align="center">
-Build AI-powered business name generator using <b><a href="https://nextjs.org/" target="_blank">Next.js</a>, <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a>, <a href="https://ui.shadcn.com/" target="_blank">Shadcn UI</a>, <a href="https://aistudio.google.com/" target="_blank">Gemini</a></b>. Watch step-by-step video tutorial on <a href="https://www.youtube.com/@developergoswami/videos" target="_blank"><b>Developer Goswami</b></a> YouTube channel. Make sure to subscribe for more great content!
+Build AI-powered business name generator using <b><a href="https://nextjs.org/" target="_blank">Next.js</a>, <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a>, <a href="https://ui.shadcn.com/" target="_blank">Shadcn UI</a>, <a href="https://aistudio.google.com/" target="_blank">Gemini</a></b>
 </div>
 
 </div>
 
 ## 📋 Table of Contents
 
-1. 🙋 [About the Creator](#about-the-creator)
+1. 🙋 [About the Developer](#about-the-developer)
 2. 🤖 [Introduction](#introduction)
 3. ⚙️ [Tech Stack](#tech-stack)
 4. 📃 [Features](#features)
@@ -25,17 +25,11 @@ Build AI-powered business name generator using <b><a href="https://nextjs.org/" 
 7. 🔗 [Resources](#resources)
 8. 📌 [Future Enhancements](#future-enhancements)
 
-## 🙋 About The Creator
+## 🙋 About the Developer
 
-Hi there! 👋 I'm Rohit Rathod, a passionate software developer and tech enthusiast dedicated to helping others learn and grow in web development.  
+Hi there! 👋 I'm **Rohit Rathod**, a passionate software developer dedicated to building modern web applications and AI-powered tools.  
 
-I create beginner-friendly tutorials and coding videos on my [YouTube channel](https://www.youtube.com/@developergoswami), covering technologies like Next.js, React, TailwindCSS, Shadcn UI, and more. My mission is to simplify complex topics and empower developers to build amazing projects with confidence.  
-
-🌟 Why Follow Me?  
-- 💻 Practical Tutorials: Build real-world projects.  
-- 🧑‍🏫 Beginner-Friendly Approach: Step-by-step guidance.  
-- 📚 Free Resources: Open-source code with explanations.  
-- 🚀 Focus on Growth: Tips, tricks, and best practices.  
+I focus on clean, responsive, and interactive user interfaces while integrating cutting-edge technologies like AI APIs. My goal is to create practical and beginner-friendly projects that help other developers learn and grow.  
 
 ### Connect with Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rohit-rathod-163292333/)
