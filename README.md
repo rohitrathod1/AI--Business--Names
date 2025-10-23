@@ -9,7 +9,7 @@
 <h3 align="center">🤖 AI-Powered Business Name Generator</h3>
 
 <div align="center">
-Build AI-powered business name generator using <b>Next.js, Shadcn UI, TailwindCSS, Gemini.</b> Watch step-by-step video tutorial on <a href="https://www.youtube.com/@developergoswami/videos" target="_blank"><b>Developer Goswami</b></a> YouTube channel. Make sure to subscribe for more great content!
+Build AI-powered business name generator using <b><a href="https://nextjs.org/" target="_blank">Next.js</a>, <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a>, <a href="https://ui.shadcn.com/" target="_blank">Shadcn UI</a>, <a href="https://aistudio.google.com/" target="_blank">Gemini</a></b>. Watch step-by-step video tutorial on <a href="https://www.youtube.com/@developergoswami/videos" target="_blank"><b>Developer Goswami</b></a> YouTube channel. Make sure to subscribe for more great content!
 </div>
 
 </div>
@@ -27,9 +27,9 @@ Build AI-powered business name generator using <b>Next.js, Shadcn UI, TailwindCS
 
 ## 🙋 About The Creator
 
-Hi there! 👋 I'm Developer Goswami, a passionate software developer and tech enthusiast dedicated to helping others learn and grow in web development.  
+Hi there! 👋 I'm Rohit Rathod, a passionate software developer and tech enthusiast dedicated to helping others learn and grow in web development.  
 
-I create beginner-friendly tutorials and in-depth coding videos on my [YouTube channel](https://www.youtube.com/@developergoswami), covering technologies like Next.js, React, TailwindCSS, PHP, Laravel, and more. My mission is to simplify complex topics and empower developers to build amazing projects with confidence.  
+I create beginner-friendly tutorials and coding videos on my [YouTube channel](https://www.youtube.com/@developergoswami), covering technologies like Next.js, React, TailwindCSS, Shadcn UI, and more. My mission is to simplify complex topics and empower developers to build amazing projects with confidence.  
 
 🌟 Why Follow Me?  
 - 💻 Practical Tutorials: Build real-world projects.  
@@ -40,37 +40,40 @@ I create beginner-friendly tutorials and in-depth coding videos on my [YouTube c
 ### Connect with Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rohit-rathod-163292333/)
 [![Instagram](https://img.shields.io/badge/Instagram-E1306C?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/rohitrathod1592/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)]([https://github.com/Goswami2021Vaibhav](https://github.com/rohitrathod1))
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rohitrathod1)
 
 ## 🤖 Introduction
 
-AI Business Name Generator is a responsive web application that helps entrepreneurs, startups, and small businesses generate unique and creative business names using AI. The application integrates domain availability checking to ensure the selected names are ready for online use.  
+AI Business Name Generator is a fully responsive web application that helps entrepreneurs, startups, and small businesses generate unique and creative business names using AI.  
 
-It is beginner-friendly, fully responsive, and uses AI technology to provide meaningful suggestions based on the user’s input.
+- Generates multiple unique business name suggestions.  
+- Checks domain availability instantly.  
+- Provides options to customize name style and randomness.  
+- Beginner-friendly, clean code, and fully responsive UI.  
 
 ## ⚙️ Tech Stack
 
-- **Next.js**: Fast and scalable web application framework.  
-- **TailwindCSS**: For responsive and visually appealing UI.  
-- **Shadcn UI**: Modern, accessible components for smooth development.  
-- **Gemini**: Google Generative AI integration for AI-powered name generation.  
-- **JavaScript**: Core programming language for interactivity.  
+- **[Next.js](https://nextjs.org/)**: Fast and scalable web application framework.  
+- **[TailwindCSS](https://tailwindcss.com/)**: Responsive and visually appealing UI.  
+- **[Shadcn UI](https://ui.shadcn.com/)**: Modern, accessible components.  
+- **[Gemini](https://aistudio.google.com/)**: AI-powered business name generation.  
+- **JavaScript**: Core language for interactivity and logic.  
 
 ## 📃 Features
 
 - **AI-Powered Name Generation**: Generate unique business names tailored to your input.  
 - **Domain Name Availability Check**: Instantly verify if a domain is available.  
 - **Customizable Options**: Choose name style and randomness for personalized results.  
-- **Responsive Design**: Optimized for desktop, tablet, and mobile.  
-- **Clean & Interactive UI**: Hover effects and interactive elements.  
-- **Infinite Scrolling**: Load more suggestions dynamically as you scroll.  
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices.  
+- **Clean & Interactive UI**: Hover effects and dynamic elements.  
+- **Infinite Scrolling**: Load more suggestions dynamically.  
 
 ## 🏗️ Workflow
 
-1. **Input Collection**: Users provide a keyword and description.  
-2. **Customization**: Select Name Style (Modern, Classic, Quirky) and Randomness (Low, Medium, High).  
+1. **Input Collection**: Users provide a keyword and brand description.  
+2. **Customization**: Select Name Style (Auto, Brandable, Evocative, Short Phrase, etc.) and Randomness (Low, Medium, High).  
 3. **AI Generation**: Gemini API generates multiple business names.  
-4. **Infinite Scrolling**: Additional names load automatically as the user scrolls.  
+4. **Infinite Scrolling**: Load additional suggestions dynamically as the user scrolls.  
 5. **Domain Status Check**: Click a name to verify domain availability.  
 
 ## 🕸️ Snippets
@@ -95,6 +98,8 @@ export const Randomness = [
   { id: 3, name: "High", description: "Random ideas. More varied results" },
 ];
 </details> <details> <summary><code>helpers/function.js</code></summary>
+js
+Copy code
 export const generatePrompt = (inputs) => {
     const prompt = `Hey gemini! i need your help in generating business name. i have name style, randomness and brand info so use these information to generate business name.
   
@@ -118,16 +123,19 @@ export const generatePrompt = (inputs) => {
   `;
     return prompt;
 };
-
 </details>
 🔗 Resources
+Google AI Studio
 
-Google AI Studio: Google AI Studio
+Domain Availability API
 
-Domain Availability API: Domain Availability API
+Next.js Official
+
+TailwindCSS Official
+
+Shadcn UI Official
 
 📌 Future Enhancements
-
 Social media handle availability check.
 
 Filter names by industry or niche.
@@ -135,4 +143,3 @@ Filter names by industry or niche.
 Export generated names to CSV or PDF.
 
 Advanced AI suggestions using more parameters.
-
