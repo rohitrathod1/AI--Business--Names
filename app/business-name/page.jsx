@@ -19,7 +19,7 @@ const BusinessName = () => {
     const fetchBusinessName = async () => {
         try {
             setLoading(true)
-            const genAI = new GoogleGenerativeAI(process.env.NEXT_PUBLIC_GEMINI_API)
+            const genAI = new GoogleGenerativeAI(process.env.GEMINI_API)
             const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" })
             const inputs = { ...query, names }
             const prompt = generatePrompt(inputs)
