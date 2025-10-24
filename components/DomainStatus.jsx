@@ -20,7 +20,7 @@ const DomainStatus = ({ open, setOpen, domain }) => {
 
                 try {
                     setLoading(true)
-                    const response = await fetch(`https://domain-availability.whoisxmlapi.com/api/v1?apiKey=${process.env.NEXT_PUBLIC_DOMAIN_STATUS_API}&domainName=${domain}&credits=DA`, {
+                    const response = await fetch(`https://domain-availability.whoisxmlapi.com/api/v1?apiKey=${process.env.DOMAIN_STATUS_API}&domainName=${domain}&credits=DA`, {
                         method: 'get'
                     })
 
